@@ -3,7 +3,7 @@ entries:
   cert-manager-certs:
   - apiVersion: v1
     appVersion: v1.0.3
-    created: "2020-10-28T13:00:47.749527576-06:00"
+    created: "2020-10-28T13:02:51.779040768-06:00"
     description: A Helm chart for cert-manager and certs
     digest: 013f1f52d0debc9e1a84280d6d7100766a1c0473f802e53cc54c0b1d26d43f97
     name: cert-manager-certs
@@ -13,7 +13,7 @@ entries:
     version: v1.0.3
   cloud-credentials:
   - apiVersion: v1
-    created: "2020-10-28T13:00:47.749657633-06:00"
+    created: "2020-10-28T13:02:51.779179024-06:00"
     description: Cloud credentials are used by several managed services to interact
       with the cloud provider that the cluster runs on.
     digest: 4ea7f96da053f69b3e87818115ac8e326227f9644a7ee09af1eec63400ae8fc3
@@ -24,7 +24,7 @@ entries:
   dex:
   - apiVersion: v1
     appVersion: 2.24.0
-    created: "2020-10-28T13:00:47.751183966-06:00"
+    created: "2020-10-28T13:02:51.780733689-06:00"
     description: OpenID Connect Identity (OIDC) and OAuth 2.0 Provider with Pluggable
       Connectors
     digest: 3e32467caf3150019776f3bef478af643b89e6da93a1bedddbcad58bfdce2c10
@@ -49,7 +49,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 7.6.2
-    created: "2020-10-28T13:00:47.752905734-06:00"
+    created: "2020-10-28T13:02:51.782151594-06:00"
     description: Official Elastic helm chart for Elasticsearch
     digest: bfe469bbea16f107297a42f5ea8c3c93d6606d73b90770d73c0e3d6ad9a38c56
     home: https://github.com/elastic/helm-charts
@@ -66,7 +66,7 @@ entries:
   elasticsearch-curator:
   - apiVersion: v1
     appVersion: 5.7.6
-    created: "2020-10-28T13:00:47.75349051-06:00"
+    created: "2020-10-28T13:02:51.782691954-06:00"
     description: A Helm chart for Elasticsearch Curator
     digest: 59f5b1c2ffa8899048baf7be858b67374e5501ff67f40820de53a0628d8ddf5a
     home: https://github.com/elastic/curator
@@ -89,7 +89,7 @@ entries:
   elasticsearch-exporter:
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2020-10-28T13:00:47.754166288-06:00"
+    created: "2020-10-28T13:02:51.783386375-06:00"
     description: Elasticsearch stats exporter for Prometheus
     digest: 99278206d966de4b24cd9397a15844af15d8cf24321f54b814e551acff94ec48
     home: https://github.com/justwatchcom/elasticsearch_exporter
@@ -114,7 +114,7 @@ entries:
   external-dns:
   - apiVersion: v1
     appVersion: 0.7.2
-    created: "2020-10-28T13:00:47.755726258-06:00"
+    created: "2020-10-28T13:02:51.784896629-06:00"
     description: ExternalDNS is a Kubernetes addon that configures public DNS servers
       with information about exposed Kubernetes services to make them discoverable.
     digest: af771af6c7aa922a605ebeeca978c78434a4802c6d815f89de6ab4df2b832776
@@ -137,7 +137,7 @@ entries:
   fluentd-elasticsearch:
   - apiVersion: v1
     appVersion: 2.8.0
-    created: "2020-10-28T13:00:47.756706125-06:00"
+    created: "2020-10-28T13:02:51.785890041-06:00"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: ba1ded3ae2c13970d99d8b4458a3afea2417a2ce6a6420d0d179b72ec5aab1a7
     home: https://www.fluentd.org/
@@ -165,7 +165,7 @@ entries:
   harbor:
   - apiVersion: v1
     appVersion: 2.1.0
-    created: "2020-10-28T13:00:47.762824237-06:00"
+    created: "2020-10-28T13:02:51.791808976-06:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: 3a93c03a65ab678903045b9b39d07c93a05f904157652d64bd45b87f6ecae51c
@@ -191,7 +191,7 @@ entries:
     version: 1.5.0
   - apiVersion: v1
     appVersion: 2.0.3
-    created: "2020-10-28T13:00:47.760060448-06:00"
+    created: "2020-10-28T13:02:51.789097632-06:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: e069f3347388596474ed730911fc8647a6728a753b937cf9a13ec10552c6e2a4
@@ -218,7 +218,7 @@ entries:
   hardening:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2020-10-28T13:00:47.762987924-06:00"
+    created: "2020-10-28T13:02:51.791969776-06:00"
     description: PodSecurityPolicies, Roles, and RoleBindings for Kubernetes clusters.
     digest: 6bc11db3cb6350b3aa8b68f81cd8981db6b54e5c27bde984543d5596c07f2c8e
     name: hardening
@@ -226,14 +226,35 @@ entries:
     urls:
     - hardening/hardening-1.0.2.tgz
     version: 1.0.2
+  ingress-nginx:
+  - apiVersion: v1
+    appVersion: 0.35.0
+    created: "2020-10-28T13:02:51.793698424-06:00"
+    description: Ingress controller for Kubernetes using NGINX as a reverse proxy
+      and load balancer
+    digest: fb678de328cafe1fa628fdd3c40d9be5c57bd55cf0b0f791454ac9fa65579a87
+    home: https://github.com/kubernetes/ingress-nginx
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: ChiefAlexander
+    name: ingress-nginx
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    urls:
+    - ingress-nginx/ingress-nginx-3.3.0.tgz
+    version: 3.3.0
   kam:
   - apiVersion: v1
     appVersion: 3.0.0
-    created: "2020-10-28T13:00:47.763238644-06:00"
+    created: "2020-10-28T13:02:51.793921903-06:00"
     description: KaaS Access Manager
     digest: de2f94cc91f17eb2cfa3c5aecebc922a8ec0502aff2a84e8b5ad1cd85d342354
     name: kam
     urls:
     - kam/kam-0.1.0.tgz
     version: 0.1.0
-generated: "2020-10-28T13:00:47.73630949-06:00"
+generated: "2020-10-28T13:02:51.765370764-06:00"
