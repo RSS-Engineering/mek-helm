@@ -3,7 +3,7 @@ entries:
   cert-manager-certs:
   - apiVersion: v1
     appVersion: v1.0.3
-    created: "2020-10-28T11:11:13.997022962-07:00"
+    created: "2020-10-28T12:34:31.209608297-06:00"
     description: A Helm chart for cert-manager and certs
     digest: 013f1f52d0debc9e1a84280d6d7100766a1c0473f802e53cc54c0b1d26d43f97
     name: cert-manager-certs
@@ -11,10 +11,20 @@ entries:
     urls:
     - cert-manager-certs/cert-manager-certs-v1.0.3.tgz
     version: v1.0.3
+  cloud-credentials:
+  - apiVersion: v1
+    created: "2020-10-28T12:34:31.20974543-06:00"
+    description: Cloud credentials are used by several managed services to interact
+      with the cloud provider that the cluster runs on.
+    digest: 4ea7f96da053f69b3e87818115ac8e326227f9644a7ee09af1eec63400ae8fc3
+    name: cloud-credentials
+    urls:
+    - cloud-creds/cloud-credentials-3.0.0.tgz
+    version: 3.0.0
   harbor:
   - apiVersion: v1
     appVersion: 2.1.0
-    created: "2020-10-28T11:11:14.002187743-07:00"
+    created: "2020-10-28T12:34:31.215811354-06:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: 3a93c03a65ab678903045b9b39d07c93a05f904157652d64bd45b87f6ecae51c
@@ -40,7 +50,7 @@ entries:
     version: 1.5.0
   - apiVersion: v1
     appVersion: 2.0.3
-    created: "2020-10-28T11:11:13.999526671-07:00"
+    created: "2020-10-28T12:34:31.212997565-06:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: e069f3347388596474ed730911fc8647a6728a753b937cf9a13ec10552c6e2a4
@@ -67,11 +77,11 @@ entries:
   kam:
   - apiVersion: v1
     appVersion: 3.0.0
-    created: "2020-10-28T11:11:14.002443125-07:00"
+    created: "2020-10-28T12:34:31.216033108-06:00"
     description: KaaS Access Manager
     digest: de2f94cc91f17eb2cfa3c5aecebc922a8ec0502aff2a84e8b5ad1cd85d342354
     name: kam
     urls:
     - kam/kam-0.1.0.tgz
     version: 0.1.0
-generated: "2020-10-28T11:11:13.984545189-07:00"
+generated: "2020-10-28T12:34:31.195378287-06:00"
