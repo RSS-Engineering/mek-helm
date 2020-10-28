@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  kam:
+  - apiVersion: v1
+    appVersion: 3.0.0
+    created: "2020-10-28T08:46:09.679928136-07:00"
+    description: KaaS Access Manager
+    digest: de2f94cc91f17eb2cfa3c5aecebc922a8ec0502aff2a84e8b5ad1cd85d342354
+    name: kam
+    urls:
+    - kam-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-10-28T08:46:09.679569206-07:00"
