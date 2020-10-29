@@ -3,7 +3,7 @@ entries:
   cert-manager-certs:
   - apiVersion: v1
     appVersion: v1.0.3
-    created: "2020-10-28T13:25:17.881240164-06:00"
+    created: "2020-10-29T13:11:05.229474554-06:00"
     description: A Helm chart for cert-manager and certs
     digest: 013f1f52d0debc9e1a84280d6d7100766a1c0473f802e53cc54c0b1d26d43f97
     name: cert-manager-certs
@@ -13,7 +13,7 @@ entries:
     version: v1.0.3
   cloud-credentials:
   - apiVersion: v1
-    created: "2020-10-28T13:25:17.881371639-06:00"
+    created: "2020-10-29T13:11:05.261456881-06:00"
     description: Cloud credentials are used by several managed services to interact
       with the cloud provider that the cluster runs on.
     digest: 4ea7f96da053f69b3e87818115ac8e326227f9644a7ee09af1eec63400ae8fc3
@@ -24,7 +24,7 @@ entries:
   dex:
   - apiVersion: v1
     appVersion: 2.24.0
-    created: "2020-10-28T13:25:17.882240882-06:00"
+    created: "2020-10-29T13:11:05.292470128-06:00"
     description: OpenID Connect Identity (OIDC) and OAuth 2.0 Provider with Pluggable
       Connectors
     digest: 3e32467caf3150019776f3bef478af643b89e6da93a1bedddbcad58bfdce2c10
@@ -49,7 +49,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 7.6.2
-    created: "2020-10-28T13:25:17.88372684-06:00"
+    created: "2020-10-29T13:11:05.303544162-06:00"
     description: Official Elastic helm chart for Elasticsearch
     digest: bfe469bbea16f107297a42f5ea8c3c93d6606d73b90770d73c0e3d6ad9a38c56
     home: https://github.com/elastic/helm-charts
@@ -66,7 +66,7 @@ entries:
   elasticsearch-curator:
   - apiVersion: v1
     appVersion: 5.7.6
-    created: "2020-10-28T13:25:17.884274728-06:00"
+    created: "2020-10-29T13:11:05.305838974-06:00"
     description: A Helm chart for Elasticsearch Curator
     digest: 59f5b1c2ffa8899048baf7be858b67374e5501ff67f40820de53a0628d8ddf5a
     home: https://github.com/elastic/curator
@@ -89,7 +89,7 @@ entries:
   elasticsearch-exporter:
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2020-10-28T13:25:17.884962372-06:00"
+    created: "2020-10-29T13:11:05.30856757-06:00"
     description: Elasticsearch stats exporter for Prometheus
     digest: 99278206d966de4b24cd9397a15844af15d8cf24321f54b814e551acff94ec48
     home: https://github.com/justwatchcom/elasticsearch_exporter
@@ -114,7 +114,7 @@ entries:
   external-dns:
   - apiVersion: v1
     appVersion: 0.7.2
-    created: "2020-10-28T13:25:17.887071956-06:00"
+    created: "2020-10-29T13:11:05.313733036-06:00"
     description: ExternalDNS is a Kubernetes addon that configures public DNS servers
       with information about exposed Kubernetes services to make them discoverable.
     digest: af771af6c7aa922a605ebeeca978c78434a4802c6d815f89de6ab4df2b832776
@@ -137,7 +137,7 @@ entries:
   fluentd-elasticsearch:
   - apiVersion: v1
     appVersion: 2.8.0
-    created: "2020-10-28T13:25:17.888050506-06:00"
+    created: "2020-10-29T13:11:05.318005054-06:00"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: ba1ded3ae2c13970d99d8b4458a3afea2417a2ce6a6420d0d179b72ec5aab1a7
     home: https://www.fluentd.org/
@@ -165,7 +165,7 @@ entries:
   harbor:
   - apiVersion: v1
     appVersion: 2.1.0
-    created: "2020-10-28T13:25:17.894228627-06:00"
+    created: "2020-10-29T13:11:05.347951731-06:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: 3a93c03a65ab678903045b9b39d07c93a05f904157652d64bd45b87f6ecae51c
@@ -191,7 +191,7 @@ entries:
     version: 1.5.0
   - apiVersion: v1
     appVersion: 2.0.3
-    created: "2020-10-28T13:25:17.890744488-06:00"
+    created: "2020-10-29T13:11:05.338859687-06:00"
     description: An open source trusted cloud native registry that stores, signs,
       and scans content
     digest: e069f3347388596474ed730911fc8647a6728a753b937cf9a13ec10552c6e2a4
@@ -218,7 +218,7 @@ entries:
   hardening:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2020-10-28T13:25:17.894398794-06:00"
+    created: "2020-10-29T13:11:05.37290713-06:00"
     description: PodSecurityPolicies, Roles, and RoleBindings for Kubernetes clusters.
     digest: 6bc11db3cb6350b3aa8b68f81cd8981db6b54e5c27bde984543d5596c07f2c8e
     name: hardening
@@ -229,7 +229,7 @@ entries:
   ingress-nginx:
   - apiVersion: v1
     appVersion: 0.35.0
-    created: "2020-10-28T13:25:17.896080851-06:00"
+    created: "2020-10-29T13:11:05.37838897-06:00"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer
     digest: fb678de328cafe1fa628fdd3c40d9be5c57bd55cf0b0f791454ac9fa65579a87
@@ -250,7 +250,7 @@ entries:
   istio:
   - apiVersion: v1
     appVersion: 1.0.5
-    created: "2020-10-28T13:25:17.902559181-06:00"
+    created: "2020-10-29T13:11:05.396106784-06:00"
     dependencies:
     - condition: sidecarInjectorWebhook.enabled
       name: sidecarInjectorWebhook
@@ -323,7 +323,7 @@ entries:
   kam:
   - apiVersion: v1
     appVersion: 3.0.0
-    created: "2020-10-28T13:25:17.902766943-06:00"
+    created: "2020-10-29T13:11:05.397681829-06:00"
     description: KaaS Access Manager
     digest: de2f94cc91f17eb2cfa3c5aecebc922a8ec0502aff2a84e8b5ad1cd85d342354
     name: kam
@@ -333,7 +333,7 @@ entries:
   kibana:
   - apiVersion: v1
     appVersion: 7.6.2
-    created: "2020-10-28T13:25:17.903554223-06:00"
+    created: "2020-10-29T13:11:05.399977927-06:00"
     description: Official Elastic helm chart for Kibana
     digest: f1b9df346ac20b0cf73181b6bed86b173b99daacae191150e9787988d392d64f
     home: https://github.com/elastic/helm-charts
@@ -350,7 +350,7 @@ entries:
   kube2iam:
   - apiVersion: v1
     appVersion: 0.10.9
-    created: "2020-10-28T13:25:17.904068788-06:00"
+    created: "2020-10-29T13:11:05.401556422-06:00"
     description: Provide IAM credentials to pods based on annotations.
     digest: 7fd2f7a054937ec9293ab58fc621ec1f813e4cde5ba92dff7c9a348b7d41248c
     home: https://github.com/jtblin/kube2iam
@@ -375,7 +375,7 @@ entries:
   kubernetes-dashboard:
   - apiVersion: v1
     appVersion: 2.0.3
-    created: "2020-10-28T13:25:17.905377575-06:00"
+    created: "2020-10-29T13:11:05.426918235-06:00"
     dependencies:
     - condition: metrics-server.enabled
       name: metrics-server
@@ -401,7 +401,7 @@ entries:
   kured:
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2020-10-28T13:25:17.905757969-06:00"
+    created: "2020-10-29T13:11:05.432298934-06:00"
     description: A Helm chart for kured
     digest: b5c7f474f93afaa78ed68ddf7c39a30769fdbdfb8e9216832db6b8071fe88ad0
     home: https://github.com/weaveworks/kured
@@ -420,7 +420,7 @@ entries:
   metrics-server:
   - apiVersion: v1
     appVersion: 0.3.6
-    created: "2020-10-28T13:25:17.906354026-06:00"
+    created: "2020-10-29T13:11:05.433862778-06:00"
     description: Metrics Server is a cluster-wide aggregator of resource usage data.
     digest: 4137ac25e14273acdc607493ae186e9b4e50c4f65c86bfd8fe8b6b1b817555e3
     home: https://github.com/kubernetes-incubator/metrics-server
@@ -440,7 +440,7 @@ entries:
   oauth2-proxy:
   - apiVersion: v1
     appVersion: 5.1.0
-    created: "2020-10-28T13:25:17.922398948-06:00"
+    created: "2020-10-29T13:11:05.436045053-06:00"
     description: A reverse proxy that provides authentication with Google, Github
       or other providers
     digest: e782d32edd697c822c9c6b815a818ea056ce58fb83f10449d39b3749de34cdb4
@@ -467,7 +467,7 @@ entries:
   prometheus-operator:
   - apiVersion: v1
     appVersion: 0.38.1
-    created: "2020-10-28T13:25:17.921150101-06:00"
+    created: "2020-10-29T13:11:05.61148719-06:00"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
@@ -500,12 +500,12 @@ entries:
     - https://github.com/coreos/prometheus-operator
     - https://coreos.com/operators/prometheus
     urls:
-    - monitoring/prometheus-operator-8.14.0.tgz
+    - prometheus-operator/prometheus-operator-8.14.0.tgz
     version: 8.14.0
   velero:
   - apiVersion: v1
     appVersion: 1.4.0
-    created: "2020-10-28T13:25:17.923809189-06:00"
+    created: "2020-10-29T13:11:05.827763876-06:00"
     description: A Helm chart for velero
     digest: f05cb7a3440fe3727571791e9310f65ac7e32d6fca8e62964323779c86d780a4
     home: https://github.com/vmware-tanzu/velero
@@ -527,4 +527,4 @@ entries:
     urls:
     - velero/velero-2.12.0.tgz
     version: 2.12.0
-generated: "2020-10-28T13:25:17.867927818-06:00"
+generated: "2020-10-29T13:11:05.169534642-06:00"
